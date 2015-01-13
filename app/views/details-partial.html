@@ -1,0 +1,7 @@
+<h3>{{currentMovie.title}}</h3>
+
+<p ng-show="filtered.length"><b>Description</b></p>
+<p>{{currentMovie.description}}</p>
+
+<p ng-show="filtered.length"><b>Actors</b></p>
+<p ng-repeat="actor in currentMovie.actors">{{actor.name}}</p>
